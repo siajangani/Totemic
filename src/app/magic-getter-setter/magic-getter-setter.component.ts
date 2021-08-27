@@ -21,7 +21,7 @@ export class MagicGetterSetterComponent implements OnInit {
 
   set name(value: string) {
     if(!value) {
-      throw new Error('value should not be empty!');
+      throw new Error('Magic name should not be empty!');
     }
     this._name = value;
   }

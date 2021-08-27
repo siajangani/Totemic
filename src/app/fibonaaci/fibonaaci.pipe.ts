@@ -5,6 +5,7 @@ import { FibonaaciService } from "./fibonaaci.service";
     name: 'fibonaaci',
     pure: true
 })
+//pipe tp transform fibanaci associated number
 export class FibonaaciPipe implements PipeTransform {
     constructor(private fiboService: FibonaaciService) { }
 
